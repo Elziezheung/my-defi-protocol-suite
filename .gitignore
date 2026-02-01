@@ -1,0 +1,27 @@
+# === Solidity / Hardhat (合约开发忽略) ===
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+.env
+*.log
+
+# === Java / Maven (后端开发忽略) ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# === 系统与 IDE (通用忽略) ===
+.DS_Store
+Thumbs.db
+.vscode/
